@@ -1,0 +1,10 @@
+.input {
+    border-bottom: solid 1px black;
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}

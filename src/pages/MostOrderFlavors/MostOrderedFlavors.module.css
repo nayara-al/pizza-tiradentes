@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.pedido {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    min-width: 300px;
+}
+
+.pizza, .bebida {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    text-decoration: underline;
+    padding: 0 0 .5rem 0;
+}

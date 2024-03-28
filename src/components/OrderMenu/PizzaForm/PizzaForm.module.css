@@ -1,0 +1,29 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: .5rem;
+    width: 280px;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--marrom-base);
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btn-disable {
+    padding: 0.5rem 1rem;
+    background-color: #6531008e;
+    color: white;
+    cursor: not-allowed;
+}

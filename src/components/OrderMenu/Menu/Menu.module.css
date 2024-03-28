@@ -1,0 +1,15 @@
+.btn {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    border-radius: .5rem;
+    gap: .5rem;
+}

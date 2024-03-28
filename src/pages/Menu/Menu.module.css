@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.pedido {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    min-width: 300px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: justify;
+}
+
+.title {
+    text-decoration: underline;
+    padding: 0 0 .5rem 0;
+}
+
+.obs {
+    font-size: .75rem;
+    color: gray;
+    max-width: 420px;
+    line-height: 16px;
+}
+
+.item-title {
+    font-weight: 500;
+}
+
+.item-descricao {
+    font-size: .75rem;
+}

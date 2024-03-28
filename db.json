@@ -1,0 +1,151 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Usuário de Teste",
+      "email": "teste@example.com",
+      "password": "senha123"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": "1",
+      "nome": "Margherita",
+      "descricao": "Molho de tomate, muçarela, tomate fresco e manjericão",
+      "preco": 25
+    },
+    {
+      "id": "2",
+      "nome": "Calabresa",
+      "descricao": "Molho de tomate, muçarela, calabresa, cebola e azeitonas",
+      "preco": 28
+    },
+    {
+      "id": "3",
+      "nome": "Frango",
+      "descricao": "Molho de tomate, muçarela, frango desfiado, milho e catupiry",
+      "preco": 26
+    },
+    {
+      "id": "4",
+      "nome": "Quatro Queijos",
+      "descricao": "Molho de tomate, muçarela, parmesão, provolone e gorgonzola",
+      "preco": 30
+    },
+    {
+      "id": "5",
+      "nome": "Frango com Requeijão",
+      "descricao": "Molho de tomate, muçarela, frango desfiado, requeijão cremoso e catupiry",
+      "preco": 29
+    },
+    {
+      "id": "6",
+      "nome": "Chocolate",
+      "descricao": "Chocolate ao leite e chocolate branco",
+      "preco": 27
+    },
+    {
+      "id": "7",
+      "nome": "Banana com Leite Condensado",
+      "descricao": "Banana, leite condensado e canela",
+      "preco": 27
+    },
+    {
+      "id": "8",
+      "nome": "Doce de Leite",
+      "descricao": "Doce de leite e muçarela",
+      "preco": 30
+    },
+    {
+      "id": "9",
+      "nome": "Napolitana",
+      "descricao": "Molho de tomate, muçarela, presunto, tomate e azeitonas",
+      "preco": 31
+    },
+    {
+      "id": "10",
+      "nome": "Vegetariana",
+      "descricao": "Molho de tomate, muçarela, palmito, champignon, pimentão, milho e azeitonas",
+      "preco": 29
+    },
+    {
+      "id": "11",
+      "nome": "Portuguesa",
+      "descricao": "Molho de tomate, muçarela, presunto, cebola, ovo e azeitonas",
+      "preco": 32
+    },
+    {
+      "id": "12",
+      "nome": "Pepperoni",
+      "descricao": "Molho de tomate, muçarela e pepperoni",
+      "preco": 33
+    }
+  ],
+  "bebidas": [
+    {
+      "id": "1",
+      "nome": "Refrigerante - lata",
+      "preco": 5
+    },
+    {
+      "id": "2",
+      "nome": "Refrigerante - 1 L",
+      "preco": 7
+    },
+    {
+      "id": "3",
+      "nome": "Refrigerante - 2 L",
+      "preco": 9
+    },
+    {
+      "id": "4",
+      "nome": "Suco - copo",
+      "preco": 4
+    },
+    {
+      "id": "5",
+      "nome": "Suco - 1 L",
+      "preco": 10
+    },
+    {
+      "id": "6",
+      "nome": "Cerveja - lata",
+      "preco": 6
+    },
+    {
+      "id": "7",
+      "nome": "Água mineral",
+      "preco": 3
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "35d0",
+      "data": "2024-03-27T14:37:41.175Z",
+      "userId": "1",
+      "pizzas": [
+        {
+          "id": "2",
+          "tamanho": "grande",
+          "sabores": ["Calabresa"],
+          "preco": 56
+        }
+      ],
+      "bebidas": [
+        {
+          "id": "2",
+          "nome": "Refrigerante - 1 L",
+          "preco": 7
+        }
+      ]
+    }
+  ],
+  "mais-pedidos": {
+    "pizzas": ["Calabresa", "Frango com Requeijão", "Chocolate"],
+    "bebidas": [
+      "Refrigerante - 2 litros",
+      "Refrigerante - 1 litro",
+      "Suco - 1 litro"
+    ]
+  }
+}
